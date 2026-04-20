@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4a504d;
+}
+
+/* Section Containers */
+section {
+    background: #e4d3afc2;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #007BFF;
+    /* A nice professional accent */
+}
+
+/*Header*/
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: rgba(0, 107, 112, 0.973);
+    border-radius: 20px;
+
+}
+
+.header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-left: 20px;
+}
+
+.div-content {
+    margin-left: 20px;
+}
+
+.quote {
+    color: #801c4e;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Headings */
+h2 {
+    margin-top: 0;
+    color: #0056b3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Prompt Content */
+p {
+    margin: 10px 0;
+}
+
+b {
+    color: #007BFF;
+}
+
+i {
+    color: #d63384;
+    /* Makes placeholders stand out in a code-like pink */
+    font-weight: bold;
+}
+
+.example-box {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*Footer*/
+.footer {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
